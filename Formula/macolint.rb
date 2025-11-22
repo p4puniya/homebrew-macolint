@@ -5,7 +5,7 @@
 class Macolint < Formula
   desc "A terminal-first snippet manager with encrypted local storage"
   homepage "https://github.com/p4puniya/Macolint"
-  url "https://github.com/p4puniya/Macolint.git", tag: "v0.1.0", revision: "284c2d0ceda1e5b963364c6d2a6a64e46ec07abc"
+  url "https://github.com/p4puniya/Macolint.git", tag: "v0.1.0", revision: "ce6888d2d1d059fba5707d9002d9b711d6faefe9"
   license "MIT"
   head "https://github.com/p4puniya/Macolint.git", branch: "main"
 
