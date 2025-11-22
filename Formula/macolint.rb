@@ -12,7 +12,7 @@ class Macolint < Formula
   depends_on "rust" => :build
 
   def install
-    system "cargo", "build", "--release", "--locked"
+    system "cargo", "build", "--release"
     bin.install "target/release/snip" => "snip"
   end
 
