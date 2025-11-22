@@ -4,11 +4,10 @@
 
 class Macolint < Formula
   desc "A terminal-first snippet manager with encrypted local storage"
-  homepage "https://github.com/p4puniya/macolint"
-  url "https://github.com/p4puniya/macolint/archive/v0.1.0.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5" # Update with actual SHA256 after first release
+  homepage "https://github.com/p4puniya/Macolint"
+  url "https://github.com/p4puniya/Macolint.git", tag: "v0.1.0", revision: "284c2d0ceda1e5b963364c6d2a6a64e46ec07abc"
   license "MIT"
-  head "https://github.com/p4puniya/macolint.git", branch: "main"
+  head "https://github.com/p4puniya/Macolint.git", branch: "main"
 
   depends_on "rust" => :build
 
